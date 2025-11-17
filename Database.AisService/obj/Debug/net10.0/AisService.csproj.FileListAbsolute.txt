@@ -1,0 +1,13 @@
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\bin\Debug\net10.0\AisService.deps.json
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\bin\Debug\net10.0\AisService.dll
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\bin\Debug\net10.0\AisService.pdb
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.csproj.AssemblyReference.cache
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.GeneratedMSBuildEditorConfig.editorconfig
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.AssemblyInfoInputs.cache
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.AssemblyInfo.cs
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.csproj.CoreCompileInputs.cache
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.sourcelink.json
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.dll
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\refint\AisService.dll
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\AisService.pdb
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AISServcice\obj\Debug\net10.0\ref\AisService.dll

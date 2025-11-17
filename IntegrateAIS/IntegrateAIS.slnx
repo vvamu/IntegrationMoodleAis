@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Libraries/">
+    <Project Path="../Database.AisService/Database.AisService.csproj" />
+    <Project Path="../Database.MoodleService/Database.MoodleService.csproj" />
+    <Project Path="../Moodle.ApiService/Moodle.ApiService.csproj" />
+  </Folder>
+  <Project Path="IntegrateAIS.csproj" />
+</Solution>

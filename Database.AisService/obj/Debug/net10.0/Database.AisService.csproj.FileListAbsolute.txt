@@ -1,0 +1,13 @@
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\bin\Debug\net10.0\Database.AisService.deps.json
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\bin\Debug\net10.0\Database.AisService.dll
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\bin\Debug\net10.0\Database.AisService.pdb
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.csproj.AssemblyReference.cache
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.GeneratedMSBuildEditorConfig.editorconfig
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.AssemblyInfoInputs.cache
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.AssemblyInfo.cs
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.csproj.CoreCompileInputs.cache
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.sourcelink.json
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.dll
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\refint\Database.AisService.dll
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\Database.AisService.pdb
+D:\nadezhda\Работа\2025_11_11_Программа_АИС_Moodle_API\AISServcice\obj\Debug\net10.0\ref\Database.AisService.dll

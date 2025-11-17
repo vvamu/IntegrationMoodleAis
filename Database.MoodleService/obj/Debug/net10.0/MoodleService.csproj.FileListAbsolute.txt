@@ -1,0 +1,13 @@
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\bin\Debug\net10.0\MoodleService.deps.json
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\bin\Debug\net10.0\MoodleService.dll
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\bin\Debug\net10.0\MoodleService.pdb
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.csproj.AssemblyReference.cache
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.GeneratedMSBuildEditorConfig.editorconfig
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.AssemblyInfoInputs.cache
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.AssemblyInfo.cs
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.csproj.CoreCompileInputs.cache
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.sourcelink.json
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.dll
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\refint\MoodleService.dll
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\MoodleService.pdb
+D:\nadezhda\Работа\2025_11_11_Удалить_отчисленных\AisService\obj\Debug\net10.0\ref\MoodleService.dll

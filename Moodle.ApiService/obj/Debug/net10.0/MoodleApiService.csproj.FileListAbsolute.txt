@@ -1,0 +1,12 @@
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\bin\Debug\net10.0\MoodleApiService.deps.json
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\bin\Debug\net10.0\MoodleApiService.dll
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\bin\Debug\net10.0\MoodleApiService.pdb
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.GeneratedMSBuildEditorConfig.editorconfig
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.AssemblyInfoInputs.cache
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.AssemblyInfo.cs
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.csproj.CoreCompileInputs.cache
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.sourcelink.json
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.dll
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\refint\MoodleApiService.dll
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\MoodleApiService.pdb
+D:\nadezhda\Работа\Программа_АИС_Moodle_API\IntegrateAIS\MoodleApiService\obj\Debug\net10.0\ref\MoodleApiService.dll
