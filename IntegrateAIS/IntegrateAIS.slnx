@@ -1,8 +1,12 @@
 <Solution>
   <Folder Name="/Libraries/">
     <Project Path="../Database.AisService/Database.AisService.csproj" />
+    <Project Path="../Database.IntegrationAisMoodle/IntegrationAisMoodle.csproj" Id="b35d6622-a977-4cfd-a0c2-b1c817b264e0" />
     <Project Path="../Database.MoodleService/Database.MoodleService.csproj" />
     <Project Path="../Moodle.ApiService/Moodle.ApiService.csproj" />
+    <Project Path="CsvHandler/CsvHandler.csproj" Id="ac48f63b-6a6c-4291-80c5-b30527763c86" />
   </Folder>
-  <Project Path="IntegrateAIS.csproj" />
+  <Folder Name="/Presentation/">
+    <Project Path="../WebApi.Integration/WebApi.Integration.csproj" Id="9e5dced4-5ea1-4e2a-9b08-50831342cb01" />
+  </Folder>
 </Solution>

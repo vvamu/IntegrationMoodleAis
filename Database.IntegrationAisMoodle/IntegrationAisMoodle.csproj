@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Database.AisService\Database.AisService.csproj" />
+    <ProjectReference Include="..\Database.MoodleService\Database.MoodleService.csproj" />
+    <ProjectReference Include="..\IntegrateAIS\CsvHandler\CsvHandler.csproj" />
+  </ItemGroup>
+
+</Project>

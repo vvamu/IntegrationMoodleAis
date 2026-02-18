@@ -9,11 +9,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AisService\MoodleService.csproj" />
-    <ProjectReference Include="..\MoodleService\Database.MoodleService.csproj" />
+    <ProjectReference Include="..\Database.AisService\Database.AisService.csproj" />
+    <ProjectReference Include="..\Database.MoodleService\Database.MoodleService.csproj" />
+    <ProjectReference Include="..\Moodle.ApiService\Moodle.ApiService.csproj" />
   </ItemGroup>
 
 </Project>

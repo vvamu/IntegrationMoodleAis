@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\nadezhda\\Работа\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj": {}
+    "D:\\nadezhda\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj": {}
   },
   "projects": {
-    "D:\\nadezhda\\Работа\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj": {
+    "D:\\nadezhda\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nadezhda\\Работа\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj",
+        "projectUniqueName": "D:\\nadezhda\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj",
         "projectName": "Moodle.ApiService",
-        "projectPath": "D:\\nadezhda\\Работа\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj",
+        "projectPath": "D:\\nadezhda\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\nadezhda\\Работа\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\obj\\",
+        "outputPath": "D:\\nadezhda\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +49,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

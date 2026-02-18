@@ -1,17 +1,84 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\",
+  "WorkspaceRootPath": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAFFF417-1AF0-A115-82A7-30347F4D31D6}|IntegrateAIS.csproj|d:\\nadezhda\\\u0440\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\integrateais\\integrateais.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AAFFF417-1AF0-A115-82A7-30347F4D31D6}|IntegrateAIS.csproj|solutionrelative:integrateais.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAFFF417-1AF0-A115-82A7-30347F4D31D6}|IntegrateAIS.csproj|d:\\nadezhda\\\u0440\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\integrateais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAFFF417-1AF0-A115-82A7-30347F4D31D6}|IntegrateAIS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\repository\\selects\\userrepositorysqlconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\MoodleService\\MoodleAPI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC48F63B-6A6C-4291-80C5-B30527763C86}|CsvHandler\\CsvHandler.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\integrateais\\csvhandler\\\u0441svcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC48F63B-6A6C-4291-80C5-B30527763C86}|CsvHandler\\CsvHandler.csproj|solutionrelative:csvhandler\\\u0441svcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5DCED4-5EA1-4E2A-9B08-50831342CB01}|..\\WebApi.Integration\\WebApi.Integration.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\webapi.integration\\controllers\\usercomparercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\application\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC48F63B-6A6C-4291-80C5-B30527763C86}|CsvHandler\\CsvHandler.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\integrateais\\csvhandler\\models\\csvcreateelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC48F63B-6A6C-4291-80C5-B30527763C86}|CsvHandler\\CsvHandler.csproj|solutionrelative:csvhandler\\models\\csvcreateelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\helpers\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5DCED4-5EA1-4E2A-9B08-50831342CB01}|..\\WebApi.Integration\\WebApi.Integration.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\webapi.integration\\controllers\\usermoodlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5DCED4-5EA1-4E2A-9B08-50831342CB01}|..\\WebApi.Integration\\WebApi.Integration.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\webapi.integration\\controllers\\useraiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC48F63B-6A6C-4291-80C5-B30527763C86}|CsvHandler\\CsvHandler.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\integrateais\\csvhandler\\csvhandler.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AC48F63B-6A6C-4291-80C5-B30527763C86}|CsvHandler\\CsvHandler.csproj|solutionrelative:csvhandler\\csvhandler.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5DCED4-5EA1-4E2A-9B08-50831342CB01}|..\\WebApi.Integration\\WebApi.Integration.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\webapi.integration\\webapi.integration.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\application\\interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5DCED4-5EA1-4E2A-9B08-50831342CB01}|..\\WebApi.Integration\\WebApi.Integration.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\webapi.integration\\controllers\\groupaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\application\\cohortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\application\\interfaces\\icohortservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5DCED4-5EA1-4E2A-9B08-50831342CB01}|..\\WebApi.Integration\\WebApi.Integration.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\webapi.integration\\controllers\\groupmoodlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35D6622-A977-4CFD-A0C2-B1C817B264E0}|..\\Database.IntegrationAisMoodle\\IntegrationAisMoodle.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.integrationaismoodle\\application\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\repository\\selects\\grouprepositorysqlconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\helpers\\aisdbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\helpers\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5961A03E-338E-8CB7-16EA-53DFEDF1AA20}|..\\Database.MoodleService\\Database.MoodleService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.moodleservice\\moodleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5961A03E-338E-8CB7-16EA-53DFEDF1AA20}|..\\Database.MoodleService\\Database.MoodleService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.moodleservice\\repository\\cohortmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD01145-3E83-4D35-C576-185D43EF05DA}|..\\Database.AisService\\Database.AisService.csproj|d:\\nadezhda\\2025_11_11_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0430\u0438\u0441_moodle_api\\database.aisservice\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +88,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 453,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,40 +108,311 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IntegrateAIS.csproj",
-              "DocumentMoniker": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\IntegrateAIS.csproj",
-              "RelativeDocumentMoniker": "IntegrateAIS.csproj",
-              "ToolTip": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\IntegrateAIS.csproj",
-              "RelativeToolTip": "IntegrateAIS.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CsvHandler.csproj",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\CsvHandler\\CsvHandler.csproj",
+              "RelativeDocumentMoniker": "CsvHandler\\CsvHandler.csproj",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\CsvHandler\\CsvHandler.csproj",
+              "RelativeToolTip": "CsvHandler\\CsvHandler.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-17T12:34:12.757Z",
+              "WhenOpened": "2026-02-17T11:42:17.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebApi.Integration.csproj",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\WebApi.Integration.csproj",
+              "RelativeDocumentMoniker": "..\\WebApi.Integration\\WebApi.Integration.csproj",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\WebApi.Integration.csproj",
+              "RelativeToolTip": "..\\WebApi.Integration\\WebApi.Integration.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-17T11:42:01.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Application\\UserService.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\UserService.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Application\\UserService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwGUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:16:39.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CsvCreateElement.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\CsvHandler\\Models\\CsvCreateElement.cs",
+              "RelativeDocumentMoniker": "CsvHandler\\Models\\CsvCreateElement.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\CsvHandler\\Models\\CsvCreateElement.cs",
+              "RelativeToolTip": "CsvHandler\\Models\\CsvCreateElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T12:29:47.981Z"
+              "WhenOpened": "2026-02-16T14:14:34.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\u0421svCreator.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\CsvHandler\\\u0421svCreator.cs",
+              "RelativeDocumentMoniker": "CsvHandler\\\u0421svCreator.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\IntegrateAIS\\CsvHandler\\\u0421svCreator.cs",
+              "RelativeToolTip": "CsvHandler\\\u0421svCreator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:00:06.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CohortService.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\CohortService.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Application\\CohortService.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\CohortService.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Application\\CohortService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:01:51.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICohortService.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\Interfaces\\ICohortService.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Application\\Interfaces\\ICohortService.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\Interfaces\\ICohortService.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Application\\Interfaces\\ICohortService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:01:47.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserMoodleController.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\UserMoodleController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Integration\\Controllers\\UserMoodleController.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\UserMoodleController.cs",
+              "RelativeToolTip": "..\\WebApi.Integration\\Controllers\\UserMoodleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:59:40.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserAisController.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\UserAisController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Integration\\Controllers\\UserAisController.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\UserAisController.cs",
+              "RelativeToolTip": "..\\WebApi.Integration\\Controllers\\UserAisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:53:12.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GroupMoodleController.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\GroupMoodleController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Integration\\Controllers\\GroupMoodleController.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\GroupMoodleController.cs",
+              "RelativeToolTip": "..\\WebApi.Integration\\Controllers\\GroupMoodleController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:52:17.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\GroupService.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Application\\GroupService.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\GroupService.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Application\\GroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:51:56.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:51:19.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IGroupService.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IGroupService.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IGroupService.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Application\\Interfaces\\IGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:51:10.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GroupAisController.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\GroupAisController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Integration\\Controllers\\GroupAisController.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\GroupAisController.cs",
+              "RelativeToolTip": "..\\WebApi.Integration\\Controllers\\GroupAisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T08:21:14.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Helpers\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Database.IntegrationAisMoodle\\Helpers\\UserMappingProfile.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.IntegrationAisMoodle\\Helpers\\UserMappingProfile.cs",
+              "RelativeToolTip": "..\\Database.IntegrationAisMoodle\\Helpers\\UserMappingProfile.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAewB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:51:21.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserComparerController.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\UserComparerController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Integration\\Controllers\\UserComparerController.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\WebApi.Integration\\Controllers\\UserComparerController.cs",
+              "RelativeToolTip": "..\\WebApi.Integration\\Controllers\\UserComparerController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T07:20:00.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MoodleAPI.cs",
-              "DocumentMoniker": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\MoodleService\\MoodleAPI.cs",
-              "RelativeDocumentMoniker": "..\\MoodleService\\MoodleAPI.cs",
-              "ToolTip": "D:\\nadezhda\\\u0420\u0430\u0431\u043E\u0442\u0430\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\MoodleService\\MoodleAPI.cs",
-              "RelativeToolTip": "..\\MoodleService\\MoodleAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Models\\User.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Models\\User.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T12:29:45.058Z"
+              "WhenOpened": "2026-02-13T07:41:23.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Helpers\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Helpers\\IRepository.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Helpers\\IRepository.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Helpers\\IRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:38:58.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MoodleAPI.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.MoodleService\\MoodleAPI.cs",
+              "RelativeDocumentMoniker": "..\\Database.MoodleService\\MoodleAPI.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.MoodleService\\MoodleAPI.cs",
+              "RelativeToolTip": "..\\Database.MoodleService\\MoodleAPI.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:30:47.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CohortMemberRepository.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.MoodleService\\Repository\\CohortMemberRepository.cs",
+              "RelativeDocumentMoniker": "..\\Database.MoodleService\\Repository\\CohortMemberRepository.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.MoodleService\\Repository\\CohortMemberRepository.cs",
+              "RelativeToolTip": "..\\Database.MoodleService\\Repository\\CohortMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:30:05.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Repository\\GroupRepository.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\GroupRepository.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Repository\\GroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:27:42.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GroupRepositorySqlConditions.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\Selects\\GroupRepositorySqlConditions.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Repository\\Selects\\GroupRepositorySqlConditions.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\Selects\\GroupRepositorySqlConditions.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Repository\\Selects\\GroupRepositorySqlConditions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:27:32.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AisDbConnector.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Helpers\\AisDbConnector.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Helpers\\AisDbConnector.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Helpers\\AisDbConnector.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Helpers\\AisDbConnector.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCcAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:27:29.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepositorySqlConditions.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\Selects\\UserRepositorySqlConditions.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Repository\\Selects\\UserRepositorySqlConditions.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\Selects\\UserRepositorySqlConditions.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Repository\\Selects\\UserRepositorySqlConditions.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T13:46:01.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Database.AisService\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\nadezhda\\2025_11_11_\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430_\u0410\u0418\u0421_Moodle_API\\Database.AisService\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\Database.AisService\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAMwGQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:23:10.305Z",
+              "EditorCaption": ""
             }
           ]
         },

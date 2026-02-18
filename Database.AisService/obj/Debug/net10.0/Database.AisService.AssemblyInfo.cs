@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Database.AisService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb63911917350d1a0b3579060de7ecbd7710186a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e36c302fa1d724a2e4451db08666bab5a1857876")]
 [assembly: System.Reflection.AssemblyProductAttribute("Database.AisService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Database.AisService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,12 +2,12 @@
 
 using Database.AisService.Models;
 using Microsoft.Data.SqlClient;
+using System.Runtime;
 using System.Runtime.CompilerServices;
 
 internal class AisDbConnector
 {
 	private SqlConnection _sqlConnection;
-
 	internal async Task<List<Object>> RunDatabaseScriptAsync(string sqlExpression)
 	{
 		if (string.IsNullOrEmpty(sqlExpression)) throw new Exception("Sql expression not set");
@@ -18,7 +18,7 @@ internal class AisDbConnector
 
 		var list = new List<object>();
 
-		var columnNames = new string[reader.FieldCount]; // Get column names first (assuming they remain constant)
+		var columnNames = new string[reader.FieldCount];
 		for (int i = 0; i < reader.FieldCount; i++)
 		{
 			columnNames[i] = reader.GetName(i);
@@ -35,6 +35,31 @@ internal class AisDbConnector
 		}
 
 		return list;
+	}
+
+	internal async Task<List<Dictionary<string, object>>> RunDatabaseScriptAsyncReturnsDictionary(string sqlExpression)
+	{
+		if (string.IsNullOrEmpty(sqlExpression)) throw new Exception("Sql expression not set");
+
+		await GetDbConnection();
+		await using var command = new SqlCommand(sqlExpression, _sqlConnection);
+		await using var reader = await command.ExecuteReaderAsync();
+
+		var result = new List<Dictionary<string, object>>();
+
+		var columns = Enumerable.Range(0, reader.FieldCount)
+		.Select(reader.GetName)
+		.ToArray();
+
+		while (reader.Read())
+		{
+			var dict = columns
+				.Select((col, idx) => new { col, value = reader[idx] })
+				.ToDictionary(x => x.col, x => x.value == DBNull.Value ? null : x.value);
+
+			result.Add(dict);
+		}
+		return result;
 	}
 
 	private async Task GetDbConnection()

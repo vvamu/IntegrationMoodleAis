@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UthVet3b7sU=",
+  "dgSpecHash": "IdodPK4VKo0=",
   "success": true,
-  "projectFilePath": "D:\\nadezhda\\Работа\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\nadezhda\\2025_11_11_Программа_АИС_Moodle_API\\Moodle.ApiService\\Moodle.ApiService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.0\\microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.0\\microsoft.extensions.primitives.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

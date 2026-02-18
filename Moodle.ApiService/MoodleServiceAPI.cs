@@ -1,10 +1,16 @@
-﻿using MoodleApiService.Helpers;
+﻿using Microsoft.Extensions.Configuration;
+using MoodleApiService.Helpers;
 using MoodleApiService.Models;
 
 namespace MoodleApiService;
 
 public class MoodleServiceAPI
 {
+	public MoodleServiceAPI(IConfigurationSection config)
+	{
+
+
+	}
 	public static async Task EditModule(int id, string action)
 	{
 		await UserService.EditModule(id, action);

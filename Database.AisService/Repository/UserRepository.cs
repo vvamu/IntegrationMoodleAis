@@ -1,57 +1,120 @@
 ﻿namespace Database.AisService.Repository;
 
 using Database.AisServcice;
+using Database.AisService.Helpers;
 using Database.AisService.Models;
 using Microsoft.Data.SqlClient;
+using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
 
-
-internal class UserRepository : Repository
+internal partial class UserRepository : Repository
 {
-	internal async Task<List<User>> GetUsers()
-    {
-		var db = new AisDbConnector();
+	internal async Task<List<User>> GetLastUserActions(int countRelativeMounth, string nomz)
+	{
+		AisDbConnector db;
 
-		const string sqlExpression = @"
-            SELECT
-				 s.nomz 
-				 ,REPLACE(REPLACE(REPLACE(REPLACE(s.nomz,'У',''),'M',''),'М',''),'А','')
-				  ,ok_mt.Name
-				 ,CAST(sh.datemoveserver AS DATE) Datemoveserver
-			FROM StudentHISTORY sh 
-				JOIN Student s ON s.idstud = sh.idstud
-				LEFT JOIN Ok_movetype ok_mt ON sh.IdMoveType = ok_mt.IdMoveType
-			WHERE 
-			(
-				DATEADD(MONTH, 2, CAST(sh.datemoveserver AS DATE)) > CAST(GETDATE() AS DATE) 
-				OR 
-				DATEADD(MONTH, 2, CAST(sh.datemove AS DATE)) > CAST(GETDATE() AS DATE)
-			)
-			AND 
-			  sh.IdMoveType IN (14,17,20,104,106) --выпуск, академ, отчислить
-			Order BY datemoveserver DESC;";
+		string sqlExpression = GetUserActionsSelect(countRelativeMounth, getLastAction: true, nomz:nomz);
 
-		var objects = await db.RunDatabaseScriptAsync(sqlExpression);
+		db = new AisDbConnector();
+		var objects = await db.RunDatabaseScriptAsyncReturnsDictionary(sqlExpression);
 
 		return objects
-			.Select(ConvertToUser)
+			.Select(ConvertToUserByDictionary)
+			.ToList();
+	}
+
+	internal async Task<List<User>> GetLastUsersActions(int countRelativeMounth) 
+	{
+		AisDbConnector db;
+
+		string sqlExpression = GetUserActionsSelect(countRelativeMounth , getLastAction:true);
+
+		db = new AisDbConnector();
+		var objects = await db.RunDatabaseScriptAsyncReturnsDictionary(sqlExpression);
+
+		return objects
+			.Select(ConvertToUserByDictionary)
+			.ToList();
+	}
+	internal async Task<List<User>> GetLastUsersActions(int countRelativeMounth, bool toDelete = false, bool toCreate = false)
+	{
+		AisDbConnector db;
+
+		string sqlExpression = GetUserActionsSelect(countRelativeMounth, toDelete:toDelete, toCreate:toCreate);
+
+		db = new AisDbConnector();
+		var objects = await db.RunDatabaseScriptAsyncReturnsDictionary(sqlExpression);
+
+		return objects
+			.Select(ConvertToUserByDictionary)
 			.ToList();
 
+	}
+	internal async Task<List<User>> GetLastUsersActions(int countRelativeMounth, bool toChangeSurname = false)
+	{
+		AisDbConnector db;
 
+		string sqlExpression = GetUserActionsSelect(countRelativeMounth, toChangeSurname:toChangeSurname, getLastAction:false);
+
+		db = new AisDbConnector();
+		var objects = await db.RunDatabaseScriptAsyncReturnsDictionary(sqlExpression);
+
+		return objects
+			.Select(ConvertToUserByDictionary)
+			.ToList();
 
 	}
 
+
+	private static User ConvertToUserByDictionary(Dictionary<string,object> row)
+	{
+		try
+		{
+			return new User
+			{
+				Id = ParseInt(row["id"]),
+				NomZ = ParseString(row["nomz"]).ToLower().Replace("у", "").Replace("м", "").Replace("m", "").Replace("а", ""),
+				Surname = ParseString(row["surname"]),
+				ShortName = ParseString(row["shortname"]),
+				Group = ParseString(row["groups"]),
+				GroupId = ParseString(row["groupId"]),
+				MoveReason = ParseString(row["moveReason"]),
+				Datemove = ParseDate(row["dateMoveServer"]),
+
+				Subgroup = ParseString(row["subgroup"]),
+				IsFzo = ParseString(row["is_fzo"]),
+				Speciality = ParseString(row["speciality"]),
+				Specialization = ParseString(row["specialization"]),
+
+			};
+		}
+		catch (Exception ex)
+		{
+			throw new InvalidOperationException($"Failed to convert tuple to User: {ex.Message}", ex);
+		}
+	}
 	private static User ConvertToUser(object tuple)
 	{
 		try
 		{
-			var (id, username, lastname, firstname) = ExtractTupleValues(tuple);
+			//var tup = tuple as ITuple;
+			//var res = tup.ToArray();
 
+
+			var res = ExtractNamedTupleValues(tuple);
+
+			var (id, nomz, surname, shortname, group, groupId, movereason, datemove) = ExtractTupleValues<int, string, string, string, string, int, string, DateTime>(tuple);
+
+			var dat = ParseDate(datemove);
 			return new User
 			{
-				NomZ = ParseString(id),
-				LastName = ParseString(username),
-				MoveReason = ParseString(lastname),
-				Datemove = ParseDate(firstname)
+				NomZ = ParseString(nomz).ToLower().Replace("у", "").Replace("м", "").Replace("m", "").Replace("а", ""),
+				Surname = ParseString(surname),
+				ShortName = ParseString(shortname),
+				Group = ParseString(group),
+				GroupId = ParseString(groupId),
+				MoveReason = ParseString(movereason),
+				Datemove = ParseDate(datemove)
 			};
 		}
 		catch (Exception ex)

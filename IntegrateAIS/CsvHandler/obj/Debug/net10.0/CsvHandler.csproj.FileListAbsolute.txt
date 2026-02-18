@@ -1,0 +1,12 @@
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\bin\Debug\net10.0\CsvHandler.deps.json
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\bin\Debug\net10.0\CsvHandler.dll
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\bin\Debug\net10.0\CsvHandler.pdb
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.GeneratedMSBuildEditorConfig.editorconfig
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.AssemblyInfoInputs.cache
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.AssemblyInfo.cs
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.csproj.CoreCompileInputs.cache
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.sourcelink.json
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.dll
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\refint\CsvHandler.dll
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\CsvHandler.pdb
+D:\nadezhda\2025_11_11_Программа_АИС_Moodle_API\IntegrateAIS\CsvHandler\obj\Debug\net10.0\ref\CsvHandler.dll

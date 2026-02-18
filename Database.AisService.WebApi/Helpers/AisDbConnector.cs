@@ -1,0 +1,75 @@
+﻿namespace Database.AisServcice;
+
+using Database.AisService.Models;
+using Microsoft.Data.SqlClient;
+using System.Runtime;
+using System.Runtime.CompilerServices;
+
+internal class AisDbConnector
+{
+	private SqlConnection _sqlConnection;
+
+	//private AisDbConnector(IOptions<MySettings> options)
+	//{
+
+	//}
+	internal async Task<List<Object>> RunDatabaseScriptAsync(string sqlExpression)
+	{
+		if (string.IsNullOrEmpty(sqlExpression)) throw new Exception("Sql expression not set");
+
+		await GetDbConnection();
+		await using var command = new SqlCommand(sqlExpression, _sqlConnection);
+		await using var reader = await command.ExecuteReaderAsync();
+
+		var list = new List<object>();
+
+		var columnNames = new string[reader.FieldCount]; // Get column names first (assuming they remain constant)
+		for (int i = 0; i < reader.FieldCount; i++)
+		{
+			columnNames[i] = reader.GetName(i);
+		}
+
+		while (reader.Read())
+		{
+			var values = new object[reader.FieldCount];
+			for (int i = 0; i < reader.FieldCount; i++)
+			{
+				values[i] = reader[i];
+			}
+			list.Add(CreateTuple(values));
+		}
+
+		return list;
+	}
+
+	private async Task GetDbConnection()
+    {
+		try
+		{
+			var connectionString = "Data Source=172.16.0.248\\bstusqlserver;Initial Catalog=Students;Persist Security Info=True;User ID=dist;Password=Cneltyns;Encrypt=False;Trust Server Certificate=True";
+			_sqlConnection = new SqlConnection(connectionString);
+			await _sqlConnection.OpenAsync();
+			
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e.ToString());
+		}
+	}
+
+	private static ITuple CreateTuple(object[] values)
+	{
+		return values.Length switch
+		{
+			1 => ValueTuple.Create(values[0]),
+			2 => ValueTuple.Create(values[0], values[1]),
+			3 => ValueTuple.Create(values[0], values[1], values[2]),
+			4 => ValueTuple.Create(values[0], values[1], values[2], values[3]),
+			5 => ValueTuple.Create(values[0], values[1], values[2], values[3], values[4]),
+			6 => ValueTuple.Create(values[0], values[1], values[2], values[3], values[4], values[5]),
+			7 => ValueTuple.Create(values[0], values[1], values[2], values[3], values[4], values[5], values[6]),
+			8 => ValueTuple.Create(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7]),
+			_ => throw new NotSupportedException($"Tuples with {values.Length} elements are not supported")
+		};
+	}
+}
