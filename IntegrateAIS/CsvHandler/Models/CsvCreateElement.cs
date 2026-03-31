@@ -32,8 +32,8 @@ public record CsvCreateElement
 			throw new ArgumentException("Cohort cannot be empty", nameof(cohort));
 	}
 
-	public string ToCsvString() =>
-		string.Join(",", Username, Password, Email, Lastname, Firstname, Course, Cohort, Group);
+	public string ToCsvString(string separator = ",") =>
+		string.Join(separator, Username, Password, Email, Lastname, Firstname, Course, Cohort, Group);
 
 	public override string ToString() => ToCsvString();
 }

@@ -28,11 +28,11 @@ public static class UserMappingProfile
 		};
 	}
 
-	public static CsvCreateElement ToCreateCsvViewModel(Database.AisService.Models.User? aisUser)
+	public static CsvCreateElement ToCsvViewModel(Database.AisService.Models.User? aisUser)
 	{	
 		return new CsvCreateElement(username: aisUser?.NomZ, lastname: aisUser.Surname, firstname: aisUser.ShortName, cohort: aisUser.Group);
 	}
-	public static CsvCreateElement ToCreateCsvViewModel(UserViewModel? aisUser)
+	public static CsvCreateElement ToCsvViewModel(UserViewModel? aisUser)
 	{
 		return new CsvCreateElement(username: aisUser?.AisNomZ, lastname: aisUser.AisSurname, firstname: aisUser.AisFirstName, cohort: aisUser.AisGroup);
 	}

@@ -1,5 +1,6 @@
 ﻿
 using CsvHandler;
+using CsvHandler.Models;
 using Database.AisServcice;
 using Database.AisService.Models;
 using Database.MoodleService;
@@ -112,8 +113,12 @@ public class UserService : IUserService
 			.Select(aisUser => UserMappingProfile.ToViewModel(aisUser, null))
 			.ToList();
 
+		var usersWithError = usersToCreate
+								.Where(x => string.IsNullOrEmpty(x.AisGroupId));
 
-		await СsvCreator.CreateAsync(usersToCreate, user => UserMappingProfile.ToCreateCsvViewModel(user));
+
+		await СsvCreator.CreateAsync("toCreate",usersToCreate, user => UserMappingProfile.ToCsvViewModel(user));
+		await СsvCreator.CreateAsync("toCheck", usersWithError);
 
 		return usersToCreate;
 	}

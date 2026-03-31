@@ -9,9 +9,10 @@ using System.Text;
 internal class Configuration : IDisposable
 {
 	private SshClient? _sshClient;
-	private MySqlConnection? _mySqlConnection;
+	protected MySqlConnection? _mySqlConnection;
 
-	internal SshClient? SetSshConnection()
+
+	protected SshClient? SetSshConnection()
 	{
 		string host = "127.0.0.1";
 		int port = 3306;
@@ -53,7 +54,7 @@ internal class Configuration : IDisposable
 		}
 	}
 
-	internal MySqlConnection? RunDatabaseConnection()
+	protected MySqlConnection? RunDatabaseConnection()
 	{
 		string host = "127.0.0.1";
 		int port = 3306;

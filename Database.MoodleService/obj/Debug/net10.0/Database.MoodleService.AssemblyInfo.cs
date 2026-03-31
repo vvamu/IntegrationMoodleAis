@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Database.MoodleService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e36c302fa1d724a2e4451db08666bab5a1857876")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c74a2a564036049779d2399ceb866d7d33898fba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Database.MoodleService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Database.MoodleService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

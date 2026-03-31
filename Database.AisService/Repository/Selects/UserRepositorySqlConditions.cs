@@ -9,6 +9,8 @@ using System.Diagnostics.CodeAnalysis;
 internal partial class UserRepository : Repository
 {
 
+
+
 	private string GetUserActionsSelect(int countLastMounth, string nomz = "", bool toDelete = false, bool toCreate = false, bool toChangeSurname = false, bool getLastAction = true)
 	{
 		List<string> conditionsInSide = new List<string>();
@@ -34,7 +36,8 @@ internal partial class UserRepository : Repository
 				 s.idstud as id
 				 ,s.nomz as nomz
 				 ,sh.Name_F as surname
-				 ,concat(s.Name_I, ' ',s.Name_O) as shortname
+				 ,s.Name_I as name
+	             ,s.Name_O as patronymic
 				 ,concat(sh.idkurs, ' ', ss.facultet, ' ',gr.Name) AS группа_ручная
 				 ,s.subgroup AS подгруппа
 				 ,case
@@ -66,7 +69,8 @@ internal partial class UserRepository : Repository
 				id,
 				nomz,
 				surname,
-				shortname,
+				name,
+	            patronymic,
 				группа_ручная as groups,
 				подгруппа as subgroup,
 				является_фзо as is_fzo,
@@ -85,86 +89,6 @@ internal partial class UserRepository : Repository
 		}
 
 	}
-
-	private string GetUserActionsSelectNotFast(int countLastMounth, string nomz = "", bool toDelete = false, bool toCreate = false, bool toChangeSurname=false, bool getLastAction = true)
-    {
-		List<string> conditionsInSide = new List<string>();
-		List<string> conditionsOutSide = new List<string>();
-	    List<string> conditionsToUsersMovements = new List<string>();
-
-		try
-		{
-			if (!string.IsNullOrEmpty(nomz)) getLastAction = false;
-
-			AddGetDataByNomz(ref conditionsOutSide, nomz);
-			AddRelativeDateMoveCondition(ref conditionsToUsersMovements, countLastMounth);
-			AddMoveTypeCondition(ref conditionsOutSide, toDelete, toCreate, toChangeSurname);
-			AddGetLastAction(ref conditionsOutSide, getLastAction);
-
-			string sqlInSideConditions = CreateSqlCondition(conditionsInSide);
-			string sqlOutSideConditions = CreateSqlCondition(conditionsOutSide);
-			string sqlToUsersMovementsConditions = CreateSqlCondition(conditionsToUsersMovements);
-
-			return $@"
-           WITH RankedData AS (
-            SELECT
-				 s.idstud as id
-				 ,s.nomz as nomz
-				 ,sh.Name_F as surname
-				 ,concat(left(s.Name_I,1), '.', left(s.Name_O,1), '.') as shortname
-				 ,concat(sh.idkurs, ' ', f.shortname, ' ',gr.Name) AS группа_ручная
-				 ,concat(s.idkurs, ' ',f.shortname,' ',ss.Группа) AS группа_АИС
-				 ,s.subgroup AS подгруппа
-				 ,case
-		  				WHEN f.shortname LIKE 'ФЗО' THEN '+'
-		  				ELSE '-'
-				 END AS является_фзо
-				 ,ss.Специальность as специальность
-				 ,ss.Специализация as специализация
-				 ,gr.IdGroup as groupId
-				 ,ok_mt.Name as moveReason
-				 ,CAST(sh.datemoveserver AS DATE) as dateMoveServer
-				 ,ok_mt.IdMoveType as moveTypeId
-				 ,sh.rn as rn
-				 FROM (
-				 	SELECT 
-				 		sh.*,
-				 		ROW_NUMBER() OVER (PARTITION BY idstud ORDER BY datemoveserver DESC) as rn
-				 	FROM StudentHISTORY sh
-				 	{sqlToUsersMovementsConditions}
-				 ) sh
-				JOIN Student s ON s.idstud = sh.idstud
-				LEFT JOIN Ok_movetype ok_mt ON sh.IdMoveType = ok_mt.IdMoveType
-				LEFT JOIN Facultets f ON sh.IdF = f.IdF
-				LEFT JOIN dbo.V_students_list ss on s.idstud = ss.idstud
-				LEFT JOIN groups gr ON sh.IdGroup = gr.IdGroup
-			{sqlInSideConditions}
-			)
-			SELECT 
-				id,
-				nomz,
-				surname,
-				shortname,
-				группа_АИС as groups,
-				подгруппа as subgroup,
-				является_фзо as is_fzo,
-				специальность as speciality,
-				специализация as specialization,
-				groupId,
-				moveReason,
-				dateMoveServer
-			FROM RankedData
-			{sqlOutSideConditions}
-			ORDER BY dateMoveServer DESC;";
-		}
-		catch (Exception ex) 
-		{
-			throw ex;
-		}
-		
-	}
-
-	
 	private static string CreateSqlCondition(List<string> conditions)
 	{
 		if (conditions.Count() == 0) return "";

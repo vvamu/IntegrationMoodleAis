@@ -1,6 +1,6 @@
 ﻿namespace Database.AisService.Options;
 
-internal class DatabaseConfig
+internal record DatabaseConfig
 {
 	public string? ConnectionString { get; set; }
 }

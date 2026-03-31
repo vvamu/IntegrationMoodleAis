@@ -5,31 +5,35 @@ namespace CsvHandler;
 
 public static class СsvCreator
 {
-	public static async Task CreateAsync<T>(IEnumerable<T> elements,
-										  Func<T, CsvCreateElement> mapper)
+	public static async Task CreateAsync<T>(string fileName, IEnumerable<T> elements) where T : class
 	{
-		var mappedElements = elements.Select(mapper).ToList();
-		await WriteToCsvAsync(mappedElements);
+		var mappedElements = elements.ToCsv();
+		await WriteToCsvAsync(mappedElements, fileName);
 	}
-	private static async Task WriteToCsvAsync(List<CsvCreateElement> elements)
+
+	public static async Task CreateAsync<T>(string fileName,IEnumerable<T> elements, Func<T, CsvCreateElement> mapper)
+	{
+		var mappedElements = elements.Select(mapper).ToList().ToCsv();
+		await WriteToCsvAsync(mappedElements, fileName);	
+	}
+
+	//main
+	private static async Task WriteToCsvAsync(string data, string filename)
 	{
 		var csv = new StringBuilder();
-		string workingDirectory = Environment.CurrentDirectory;
-		var path = Directory.GetParent(workingDirectory).Parent.FullName;
-		var fileName = DateTime.Now.ToShortDateString() + "_" + DateTime.Now.Hour + "." + DateTime.Now.Minute + ".csv";
-		path = Directory.GetParent(workingDirectory).FullName;
-		path = path;
-		string destPath = Path.Combine(path, "logs", fileName);
+		var pathToFile = await GetFullFilePath(filename);
 
+		csv.AppendLine(data);
 
-		csv.AppendLine("username,password,email,lastname,firstname,course1,cohort1,group1");
-
-		foreach (var el in elements)
-		{
-			csv.AppendLine(el.ToString());
-		}
-		
-		File.WriteAllText(destPath, csv.ToString());
+		File.WriteAllText(pathToFile, csv.ToString());
 	}
 
+	private static async Task<string> GetFullFilePath(string origin_filename)
+	{
+		string workingDirectory = Environment.CurrentDirectory;
+		var path = Directory.GetParent(workingDirectory).FullName;
+		var fileName = origin_filename + "_" + DateTime.Now.ToShortDateString() + "_" + DateTime.Now.Hour + "." + DateTime.Now.Minute + ".csv";
+		string destPath = Path.Combine(path, "logs", fileName);
+		return destPath;
+	}
 }

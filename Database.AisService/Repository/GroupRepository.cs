@@ -11,8 +11,6 @@ internal partial class GroupRepository : Repository
 {
 	internal async Task<Object> GetUsersByGroupId(int groupId)
 	{
-		AisDbConnector db;
-
 		string sqlExpression = GetUsersByGroupIdSelect(groupId);
 
 		db = new AisDbConnector();
@@ -23,8 +21,6 @@ internal partial class GroupRepository : Repository
 
 	internal async Task<Object> GetUserByNomzWithСlassmates(string nomZ)
 	{
-		AisDbConnector db;
-
 		string sqlExpression = GetUserByIdWithСlassmatesSelect(nomZ);
 
 		db = new AisDbConnector();

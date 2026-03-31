@@ -5,15 +5,14 @@ using Microsoft.Data.SqlClient;
 using System.Runtime;
 using System.Runtime.CompilerServices;
 
-internal class AisDbConnector
+internal class AisDbConnector : Configuration
 {
-	private SqlConnection _sqlConnection;
 	internal async Task<List<Object>> RunDatabaseScriptAsync(string sqlExpression)
 	{
 		if (string.IsNullOrEmpty(sqlExpression)) throw new Exception("Sql expression not set");
 
-		await GetDbConnection();
-		await using var command = new SqlCommand(sqlExpression, _sqlConnection);
+		await RunDatabaseConnection();
+		await using var command = new SqlCommand(sqlExpression, _sqlServersConnection);
 		await using var reader = await command.ExecuteReaderAsync();
 
 		var list = new List<object>();
@@ -41,8 +40,8 @@ internal class AisDbConnector
 	{
 		if (string.IsNullOrEmpty(sqlExpression)) throw new Exception("Sql expression not set");
 
-		await GetDbConnection();
-		await using var command = new SqlCommand(sqlExpression, _sqlConnection);
+		await RunDatabaseConnection();
+		await using var command = new SqlCommand(sqlExpression, _sqlServersConnection);
 		await using var reader = await command.ExecuteReaderAsync();
 
 		var result = new List<Dictionary<string, object>>();
@@ -60,21 +59,6 @@ internal class AisDbConnector
 			result.Add(dict);
 		}
 		return result;
-	}
-
-	private async Task GetDbConnection()
-    {
-		try
-		{
-			var connectionString = "Data Source=172.16.0.248\\bstusqlserver;Initial Catalog=Students;Persist Security Info=True;User ID=dist;Password=Cneltyns;Encrypt=False;Trust Server Certificate=True";
-			_sqlConnection = new SqlConnection(connectionString);
-			await _sqlConnection.OpenAsync();
-			
-		}
-		catch (Exception e)
-		{
-			Console.WriteLine(e.ToString());
-		}
 	}
 
 	private static ITuple CreateTuple(object[] values)

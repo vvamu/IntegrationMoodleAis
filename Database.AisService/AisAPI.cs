@@ -1,6 +1,7 @@
 ﻿namespace Database.AisServcice;
 
 using Database.AisService.Application;
+using Database.AisService.Enums;
 using Database.AisService.Models;
 using Database.AisService.Repository;
 using Microsoft.Data.SqlClient;
@@ -10,16 +11,17 @@ public class AisAPI : IUserService
 {
 	private readonly UserRepository _userRepository;
 	private readonly GroupRepository _groupRepository;
-	public AisAPI(IConfigurationSection config = null)
+
+	public AisAPI() //IConfigurationSection? config
 	{
-		var connectionString = config?.GetSection("ConnectionStrings").GetConnectionString("MsSQL");
+		//var connectionString = config?.GetSection("ConnectionStrings").GetConnectionString("MsSQL");
 		_userRepository = new UserRepository();
 		_groupRepository = new GroupRepository();
 	}
+
+	public async Task<List<Dictionary<string, object>>> GetEduTypes(AisTable table) => await _userRepository.GetTableAsync(table);
+
 	#region User
-
-	#endregion
-
 	public async Task<List<User>> GetUserByNomzAsync(string nomz)
 	{
 		var countMounth = 12 * 10; //10 лет
@@ -49,7 +51,7 @@ public class AisAPI : IUserService
 		var users = await _userRepository.GetLastUsersActions(countRelativeMounth: countRelativeMounth, toChangeSurname: true);
 		return users;
 	}
-
+	#endregion
 
 	#region Group
 

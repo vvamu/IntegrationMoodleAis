@@ -11,10 +11,8 @@ using static Org.BouncyCastle.Math.EC.ECCurve;
 //1. proxy
 //2. к серверу
 //3. к бд
-internal class MariaDbConnector : IDisposable
+internal class MariaDbConnector : Configuration
 {
-	private MySqlConnection _mySqlConnection;
-
 	internal List<object> RunDatabaseScript(string sqlExpression = "")
 	{
 		if (string.IsNullOrEmpty(sqlExpression)) throw new Exception("Sql expression not set");
@@ -24,13 +22,13 @@ internal class MariaDbConnector : IDisposable
 	{
 		using (var config = new Configuration())
 		{
-			var sshClient = config.SetSshConnection();
+			var sshClient = SetSshConnection();
 			if (sshClient == null)
 			{
 				throw new Exception("Failed to establish SSH connection");
 			}
 
-			_mySqlConnection = config.RunDatabaseConnection();
+			_mySqlConnection = RunDatabaseConnection();
 			return RunSqlExpression(sqlExpression);
 
 		}

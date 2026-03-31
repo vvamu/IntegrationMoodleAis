@@ -5,7 +5,7 @@ using System.Text;
 
 namespace IntegrationAisMoodle.ViewModels.User;
 
-public class UserViewModel
+public record UserViewModel
 {
 	
 	public string? AisNomZ { get; set; } //Номер зачетки
